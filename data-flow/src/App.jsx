@@ -11,7 +11,6 @@ function App() {
   const[msg ,setMsg]=useState("")
 
   function getMsg(dedo){
- console.log(dedo)
  setMsg(dedo)
   }
  
@@ -26,8 +25,9 @@ function App() {
   alignItems: 'center',
   gap: '8rem',
       }}>
-      <Header data={data}/>
+    
      <Layout  data={data} kabutar={getMsg}/>
+      <Header data={data}/>
      <Footer  data={data}/> 
      <h1>{msg}</h1>
      </div>
