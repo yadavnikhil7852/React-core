@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which hook is used to optimize expensive calculations in React?",
+    "options": ["useEffect", "useMemo", "useState", "useReducer"],
+    "answer": "useMemo"
+  },
+  {
+    "question": "Which HTTP method is idempotent?",
+    "options": ["POST", "PUT", "PATCH", "DELETE"],
+    "answer": "PUT"
+  },
+  {
+    "question": "Which database supports horizontal scaling using sharding?",
+    "options": ["MongoDB", "MySQL", "SQLite", "Oracle"],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "What does Docker use to isolate applications?",
+    "options": ["Containers", "Virtual Machines", "Images", "Sessions"],
+    "answer": "Containers"
+  },
+  {
+    "question": "What is the primary purpose of Redux?",
+    "options": ["State Management", "UI Styling", "Routing", "API Fetching"],
+    "answer": "State Management"
+  },
+  {
+    "question": "Node.js is built on which JavaScript engine?",
+    "options": ["V8 Engine", "SpiderMonkey", "Chakra", "Hermes"],
+    "answer": "V8 Engine"
+  },
+  {
+    "question": "Which CSS property controls the stacking order of elements?",
+    "options": ["z-index", "flex", "gap", "overflow"],
+    "answer": "z-index"
+  },
+  {
+    "question": "Kubernetes is primarily used for?",
+    "options": ["Container Orchestration", "Database Indexing", "API Routing", "Load Testing"],
+    "answer": "Container Orchestration"
+  },
+  {
+    "question": "Express.js is mainly used for?",
+    "options": ["Backend Routing", "Frontend Styling", "Mobile Development", "Database Management"],
+    "answer": "Backend Routing"
+  },
+  {
+    "question": "Git is used for?",
+    "options": ["Version Control", "Deployment", "Monitoring", "Testing"],
+    "answer": "Version Control"
+  },
+  {
+    "question": "React components must start with?",
+    "options": ["Capital Letter", "Small Letter", "Number", "Symbol"],
+    "answer": "Capital Letter"
+  },
+  {
+    "question": "Which command installs a package using npm?",
+    "options": ["npm install", "npm init", "npm start", "npm link"],
+    "answer": "npm install"
+  },
+  {
+    "question": "Which lifecycle method does useEffect mimic?",
+    "options": ["componentDidMount", "render", "shouldComponentUpdate", "componentWillUnmount"],
+    "answer": "componentDidMount"
+  },
+  {
+    "question": "What is the purpose of a Load Balancer?",
+    "options": ["Distribute network traffic", "Store database records", "Optimize CSS", "Minify JavaScript"],
+    "answer": "Distribute network traffic"
+  },
+  {
+    "question": "Which HTML tag is used to include JavaScript?",
+    "options": ["script", "js", "code", "javascript"],
+    "answer": "script"
+  },
+  {
+    "question": "What is the role of an API Gateway?",
+    "options": ["Request routing", "Database storage", "UI rendering", "Cron jobs"],
+    "answer": "Request routing"
+  },
+  {
+    "question": "Which protocol secures data using encryption?",
+    "options": ["HTTPS", "HTTP", "FTP", "TCP"],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "React Fiber was introduced to improve?",
+    "options": ["Concurrency", "CSS Grid", "DOM APIs", "Multithreading"],
+    "answer": "Concurrency"
+  },
+  {
+    "question": "Which command initializes a new Git repository?",
+    "options": ["git init", "git clone", "git push", "git fetch"],
+    "answer": "git init"
+  },
+  {
+    "question": "CI/CD is used for?",
+    "options": ["Automated building & deployment", "Manual debugging", "Frontend animations", "Database indexing"],
+    "answer": "Automated building & deployment"
+  }
+]
