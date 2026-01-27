@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-function Timer({setIsOver}) {
-  const [leftTime, setLeftTime] = useState(1200);
+function Timer({ setIsOver }) {
+  const [leftTime, setLeftTime] = useState(180);
   const [displayTime, setDisplayTime] = useState("");
 
   //left time logic
@@ -10,8 +10,6 @@ function Timer({setIsOver}) {
       setLeftTime((prev) => {
         if (prev <= 1) {
           clearInterval(intervalId);
-        
-
           return 0;
         }
         return prev - 1;
@@ -24,13 +22,13 @@ function Timer({setIsOver}) {
   }, []);
   //time format logic
   useEffect(() => {
-    if(leftTime === 0){
-        setIsOver(true)
+    if (leftTime === 0) {
+      setIsOver(true);
     }
     let formattedTime = `${Math.floor(leftTime / 60)
       .toString()
       .padStart(2, 0)} : ${(leftTime % 60).toString().padStart(2, "0")}`;
-    setDisplayTime(formattedTime);
+    setDisplayTime(formattedTime) //we should use usememo hook to avoid this problem
   }, [leftTime]);
 
   return (

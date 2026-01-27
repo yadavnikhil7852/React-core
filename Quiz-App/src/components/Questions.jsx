@@ -5,11 +5,14 @@ function Questions({setIsOver ,setScore ,}) {
  
     
 // console.log(questions[currentIndex])
+//score logic
  const handleOptionClick = (selectedOption)=>{
 console.log(selectedOption)
 if (selectedOption == questions[currentIndex].answer){
   setScore(prev=> prev+1)
+  
 }
+//question itrating logic
 if(currentIndex < questions.length-1){
   setCurrentIndex(prev=> prev+1)
 }else{
