@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 function userCard({userDetails}) {
  
   // console.log(userDetails)
-  useEffect(() => {
+   useEffect(() => {
   console.log("Mounted", userDetails.name);
-}, []);
+}, [userDetails]);
 
   return (
    <p>hello my name is {userDetails.name} and my age is {userDetails.age} </p>

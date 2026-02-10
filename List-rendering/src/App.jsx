@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <h1>hello</h1>
+      <h3>hello</h3>
       {/* <ul>
         {greetWithState.map((greet, index) => (
           <li key={index}>{greet}</li>
