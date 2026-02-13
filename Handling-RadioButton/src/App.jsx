@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Payment from "./components/Payment";
+import SelectDropdown from "./components/selectDropdown";
 
 function App() {
   const [Airplanes, setAirplanes] = useState({
@@ -69,6 +70,7 @@ function App() {
         </button>
       </div>
       <Payment/>
+     <SelectDropdown/>
     </>
   );
 }
