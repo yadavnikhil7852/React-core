@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Payment from "./components/Payment";
 
 function App() {
   const [Airplanes, setAirplanes] = useState({
@@ -50,7 +51,7 @@ function App() {
       >
         {Object.keys(Airplanes).map((item) => {
           return (
-            <label key={`${item}`} htmlFor="">
+            <label key={`${item}`} htmlFor={item}>
               <input
                 type="radio"
                 name="Airplane"
@@ -67,6 +68,7 @@ function App() {
           Submit
         </button>
       </div>
+      <Payment/>
     </>
   );
 }
